@@ -1,0 +1,43 @@
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+expo-env.d.ts
+
+# Native projects are generated via `expo prebuild` (CNG workflow).
+# Anchored: modules/*/[android|ios] hold real native sources and must ship.
+/ios/
+/android/
+
+# secrets / local env
+.env
+.env*.local
+
+# coverage
+coverage/
+
+# misc
+*.tsbuildinfo
+.DS_Store
+*.orig.*
+npm-debug.*
+.expo-go
+
+# certificates & signing material
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+# EAS local signing credentials (never commit)
+credentials.json
+certs/
+
+# local session notes (contain ASC/EAS identifiers — never publish)
+SESSION_HANDOFF.md
+
+# App Store marketing assets (generated locally, large binaries)
+store-assets/

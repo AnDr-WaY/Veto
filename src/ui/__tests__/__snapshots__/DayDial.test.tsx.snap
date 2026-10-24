@@ -1,0 +1,1059 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DayDial renders the clock with highlighted hours and now marker (snapshot) 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderWidth": 2,
+        "justifyContent": "center",
+        "overflow": "hidden",
+      },
+      {
+        "borderColor": "rgba(60, 60, 67, 0.14)",
+        "borderRadius": 999,
+        "height": 280,
+        "width": 280,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    pointerEvents="none"
+    style={
+      [
+        {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+        },
+        {
+          "height": 280,
+          "width": 280,
+        },
+        {
+          "transform": [
+            {
+              "rotate": "0deg",
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 2,
+            "height": 16,
+            "position": "absolute",
+            "top": 10,
+            "width": 4,
+          },
+          {
+            "backgroundColor": "rgba(60, 60, 67, 0.14)",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      [
+        {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+        },
+        {
+          "height": 280,
+          "width": 280,
+        },
+        {
+          "transform": [
+            {
+              "rotate": "15deg",
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 2,
+            "height": 16,
+            "position": "absolute",
+            "top": 10,
+            "width": 4,
+          },
+          {
+            "backgroundColor": "rgba(60, 60, 67, 0.14)",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      [
+        {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+        },
+        {
+          "height": 280,
+          "width": 280,
+        },
+        {
+          "transform": [
+            {
+              "rotate": "30deg",
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 2,
+            "height": 16,
+            "position": "absolute",
+            "top": 10,
+            "width": 4,
+          },
+          {
+            "backgroundColor": "rgba(60, 60, 67, 0.14)",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      [
+        {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+        },
+        {
+          "height": 280,
+          "width": 280,
+        },
+        {
+          "transform": [
+            {
+              "rotate": "45deg",
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 2,
+            "height": 16,
+            "position": "absolute",
+            "top": 10,
+            "width": 4,
+          },
+          {
+            "backgroundColor": "rgba(60, 60, 67, 0.14)",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      [
+        {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+        },
+        {
+          "height": 280,
+          "width": 280,
+        },
+        {
+          "transform": [
+            {
+              "rotate": "60deg",
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 2,
+            "height": 16,
+            "position": "absolute",
+            "top": 10,
+            "width": 4,
+          },
+          {
+            "backgroundColor": "rgba(60, 60, 67, 0.14)",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      [
+        {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+        },
+        {
+          "height": 280,
+          "width": 280,
+        },
+        {
+          "transform": [
+            {
+              "rotate": "75deg",
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 2,
+            "height": 16,
+            "position": "absolute",
+            "top": 10,
+            "width": 4,
+          },
+          {
+            "backgroundColor": "rgba(60, 60, 67, 0.14)",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      [
+        {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+        },
+        {
+          "height": 280,
+          "width": 280,
+        },
+        {
+          "transform": [
+            {
+              "rotate": "90deg",
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 2,
+            "height": 16,
+            "position": "absolute",
+            "top": 10,
+            "width": 4,
+          },
+          {
+            "backgroundColor": "rgba(60, 60, 67, 0.14)",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      [
+        {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+        },
+        {
+          "height": 280,
+          "width": 280,
+        },
+        {
+          "transform": [
+            {
+              "rotate": "105deg",
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 2,
+            "height": 16,
+            "position": "absolute",
+            "top": 10,
+            "width": 4,
+          },
+          {
+            "backgroundColor": "rgba(60, 60, 67, 0.14)",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      [
+        {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+        },
+        {
+          "height": 280,
+          "width": 280,
+        },
+        {
+          "transform": [
+            {
+              "rotate": "120deg",
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 2,
+            "height": 16,
+            "position": "absolute",
+            "top": 10,
+            "width": 4,
+          },
+          {
+            "backgroundColor": "rgba(60, 60, 67, 0.14)",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      [
+        {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+        },
+        {
+          "height": 280,
+          "width": 280,
+        },
+        {
+          "transform": [
+            {
+              "rotate": "135deg",
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 2,
+            "height": 16,
+            "position": "absolute",
+            "top": 10,
+            "width": 4,
+          },
+          {
+            "backgroundColor": "#111114",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      [
+        {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+        },
+        {
+          "height": 280,
+          "width": 280,
+        },
+        {
+          "transform": [
+            {
+              "rotate": "150deg",
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 2,
+            "height": 16,
+            "position": "absolute",
+            "top": 10,
+            "width": 4,
+          },
+          {
+            "backgroundColor": "#111114",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      [
+        {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+        },
+        {
+          "height": 280,
+          "width": 280,
+        },
+        {
+          "transform": [
+            {
+              "rotate": "165deg",
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 2,
+            "height": 16,
+            "position": "absolute",
+            "top": 10,
+            "width": 4,
+          },
+          {
+            "backgroundColor": "#111114",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      [
+        {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+        },
+        {
+          "height": 280,
+          "width": 280,
+        },
+        {
+          "transform": [
+            {
+              "rotate": "180deg",
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 2,
+            "height": 16,
+            "position": "absolute",
+            "top": 10,
+            "width": 4,
+          },
+          {
+            "backgroundColor": "#111114",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      [
+        {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+        },
+        {
+          "height": 280,
+          "width": 280,
+        },
+        {
+          "transform": [
+            {
+              "rotate": "195deg",
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 2,
+            "height": 16,
+            "position": "absolute",
+            "top": 10,
+            "width": 4,
+          },
+          {
+            "backgroundColor": "#111114",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      [
+        {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+        },
+        {
+          "height": 280,
+          "width": 280,
+        },
+        {
+          "transform": [
+            {
+              "rotate": "210deg",
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 2,
+            "height": 16,
+            "position": "absolute",
+            "top": 10,
+            "width": 4,
+          },
+          {
+            "backgroundColor": "#111114",
+            "borderRadius": 3,
+            "height": 26,
+            "top": 8,
+            "width": 6,
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      [
+        {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+        },
+        {
+          "height": 280,
+          "width": 280,
+        },
+        {
+          "transform": [
+            {
+              "rotate": "225deg",
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 2,
+            "height": 16,
+            "position": "absolute",
+            "top": 10,
+            "width": 4,
+          },
+          {
+            "backgroundColor": "#111114",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      [
+        {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+        },
+        {
+          "height": 280,
+          "width": 280,
+        },
+        {
+          "transform": [
+            {
+              "rotate": "240deg",
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 2,
+            "height": 16,
+            "position": "absolute",
+            "top": 10,
+            "width": 4,
+          },
+          {
+            "backgroundColor": "#111114",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      [
+        {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+        },
+        {
+          "height": 280,
+          "width": 280,
+        },
+        {
+          "transform": [
+            {
+              "rotate": "255deg",
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 2,
+            "height": 16,
+            "position": "absolute",
+            "top": 10,
+            "width": 4,
+          },
+          {
+            "backgroundColor": "rgba(60, 60, 67, 0.14)",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      [
+        {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+        },
+        {
+          "height": 280,
+          "width": 280,
+        },
+        {
+          "transform": [
+            {
+              "rotate": "270deg",
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 2,
+            "height": 16,
+            "position": "absolute",
+            "top": 10,
+            "width": 4,
+          },
+          {
+            "backgroundColor": "rgba(60, 60, 67, 0.14)",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      [
+        {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+        },
+        {
+          "height": 280,
+          "width": 280,
+        },
+        {
+          "transform": [
+            {
+              "rotate": "285deg",
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 2,
+            "height": 16,
+            "position": "absolute",
+            "top": 10,
+            "width": 4,
+          },
+          {
+            "backgroundColor": "rgba(60, 60, 67, 0.14)",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      [
+        {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+        },
+        {
+          "height": 280,
+          "width": 280,
+        },
+        {
+          "transform": [
+            {
+              "rotate": "300deg",
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 2,
+            "height": 16,
+            "position": "absolute",
+            "top": 10,
+            "width": 4,
+          },
+          {
+            "backgroundColor": "rgba(60, 60, 67, 0.14)",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      [
+        {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+        },
+        {
+          "height": 280,
+          "width": 280,
+        },
+        {
+          "transform": [
+            {
+              "rotate": "315deg",
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 2,
+            "height": 16,
+            "position": "absolute",
+            "top": 10,
+            "width": 4,
+          },
+          {
+            "backgroundColor": "rgba(60, 60, 67, 0.14)",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      [
+        {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+        },
+        {
+          "height": 280,
+          "width": 280,
+        },
+        {
+          "transform": [
+            {
+              "rotate": "330deg",
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 2,
+            "height": 16,
+            "position": "absolute",
+            "top": 10,
+            "width": 4,
+          },
+          {
+            "backgroundColor": "rgba(60, 60, 67, 0.14)",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      [
+        {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+        },
+        {
+          "height": 280,
+          "width": 280,
+        },
+        {
+          "transform": [
+            {
+              "rotate": "345deg",
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderRadius": 2,
+            "height": 16,
+            "position": "absolute",
+            "top": 10,
+            "width": 4,
+          },
+          {
+            "backgroundColor": "rgba(60, 60, 67, 0.14)",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    pointerEvents="none"
+    style={
+      {
+        "alignItems": "center",
+      }
+    }
+  >
+    <Text
+      adjustsFontSizeToFit={true}
+      numberOfLines={1}
+      style={
+        [
+          {
+            "fontFamily": "System",
+            "fontSize": 64,
+            "fontWeight": "700",
+            "letterSpacing": -1.5,
+            "lineHeight": 68,
+          },
+          {
+            "color": "#111114",
+          },
+        ]
+      }
+    >
+      14:00
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "System",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "letterSpacing": 0,
+            "lineHeight": 18,
+          },
+          {
+            "color": "#6C6C72",
+          },
+        ]
+      }
+    >
+      Blocking 9:00–17:00
+    </Text>
+  </View>
+</View>
+`;

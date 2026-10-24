@@ -1,0 +1,38 @@
+{
+  "cli": {
+    "version": ">= 13.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "ios": {
+        "simulator": true
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "channel": "production",
+      "ios": {
+        "credentialsSource": "local"
+      },
+      "env": {
+        "EXPO_PUBLIC_ENGINE": "native"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "ascAppId": "6825710599",
+        "ascApiKeyPath": "/home/andrway/Documents/VetoImp/ASC/AuthKey_C2CAT44NF9.p8",
+        "ascApiKeyId": "C2CAT44NF9",
+        "ascApiKeyIssuerId": "52dc688a-40dd-446b-9f24-bbe14ff38cec"
+      }
+    }
+  }
+}

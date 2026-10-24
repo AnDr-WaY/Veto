@@ -1,0 +1,6 @@
+{
+  "name": "veto-live-activity",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local Expo module: starts/stops the Veto lock-screen Live Activity (ActivityKit)."
+}

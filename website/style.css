@@ -1,0 +1,227 @@
+/* Veto — legal pages (privacy, terms). Monochrome, matches the app. */
+
+:root {
+  --bg: #0a0a0a;
+  --bg-raised: #141414;
+  --ink: #f2f2f0;
+  --ink-dim: #a3a3a0;
+  --line: #2a2a2a;
+  --accent: #ffffff;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #fafaf8;
+    --bg-raised: #ffffff;
+    --ink: #111110;
+    --ink-dim: #6b6b68;
+    --line: #e2e2df;
+    --accent: #000000;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+a {
+  color: var(--ink);
+  text-decoration-color: var(--ink-dim);
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  text-decoration-color: var(--accent);
+}
+
+header.site {
+  border-bottom: 1px solid var(--line);
+}
+
+.site-inner {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 1.25rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+/* The V from the app icon, followed by the wordmark text. */
+.vmark {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+  flex: none;
+}
+
+nav.page-links a {
+  color: var(--ink-dim);
+  text-decoration: none;
+  margin-left: 1.25rem;
+  font-size: 0.95rem;
+}
+
+nav.page-links a[aria-current="page"],
+nav.page-links a:hover {
+  color: var(--ink);
+}
+
+.gh-link {
+  color: var(--ink-dim);
+  display: inline-flex;
+}
+
+.gh-link:hover {
+  color: var(--ink);
+}
+
+.gh-link svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+main {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
+}
+
+h1 {
+  font-size: 1.9rem;
+  line-height: 1.2;
+  margin: 0 0 0.25rem;
+}
+
+.updated {
+  color: var(--ink-dim);
+  font-size: 0.95rem;
+  margin: 0 0 2.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin: 2.5rem 0 0.75rem;
+  letter-spacing: 0.01em;
+}
+
+h3 {
+  font-size: 1.02rem;
+  margin: 1.75rem 0 0.5rem;
+}
+
+p,
+li {
+  margin: 0 0 0.9rem;
+}
+
+ul,
+ol {
+  padding-left: 1.4rem;
+}
+
+li {
+  margin-bottom: 0.45rem;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.card-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.card-list a {
+  display: block;
+  border: 1px solid var(--line);
+  background: var(--bg-raised);
+  border-radius: 14px;
+  padding: 1.25rem 1.4rem;
+  text-decoration: none;
+}
+
+.card-list a:hover {
+  border-color: var(--ink-dim);
+}
+
+.card-list .card-title {
+  font-weight: 600;
+  margin: 0 0 0.3rem;
+}
+
+.card-list .card-desc {
+  color: var(--ink-dim);
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.tagline {
+  color: var(--ink-dim);
+  font-size: 1.1rem;
+  max-width: 34rem;
+}
+
+footer.site {
+  border-top: 1px solid var(--line);
+}
+
+footer.site .site-inner {
+  color: var(--ink-dim);
+  font-size: 0.9rem;
+}
+
+@media print {
+  :root {
+    --bg: #ffffff;
+    --bg-raised: #ffffff;
+    --ink: #000000;
+    --ink-dim: #555555;
+    --line: #cccccc;
+  }
+
+  body {
+    font-size: 11pt;
+  }
+
+  header.site,
+  footer.site {
+    border-color: #cccccc;
+  }
+
+  .card-list a {
+    border-color: #cccccc;
+  }
+}

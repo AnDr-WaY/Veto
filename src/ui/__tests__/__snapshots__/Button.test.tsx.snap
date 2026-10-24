@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders a disabled secondary button (snapshot) 1`] = `
+<View
+  accessibilityLabel="Options"
+  accessibilityRole="button"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": true,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    [
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "paddingHorizontal": 20,
+      },
+      false,
+      {
+        "backgroundColor": "#EBEBEF",
+        "borderColor": "rgba(60, 60, 67, 0.28)",
+        "borderWidth": 0.5,
+      },
+      {
+        "borderRadius": 12,
+        "paddingVertical": 20,
+      },
+      {
+        "opacity": 0.5,
+      },
+      false,
+    ]
+  }
+>
+  <Text
+    numberOfLines={1}
+    style={
+      [
+        {
+          "fontFamily": "System",
+          "fontSize": 17,
+          "fontWeight": "600",
+          "letterSpacing": 0,
+          "lineHeight": 24,
+        },
+        {
+          "color": "#9A9AA1",
+        },
+      ]
+    }
+  >
+    Options
+  </Text>
+</View>
+`;
+
+exports[`Button renders a primary button (snapshot) 1`] = `
+<View
+  accessibilityLabel="Block now"
+  accessibilityRole="button"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    [
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "paddingHorizontal": 20,
+      },
+      false,
+      {
+        "backgroundColor": "#111114",
+      },
+      {
+        "borderRadius": 12,
+        "paddingVertical": 20,
+      },
+      false,
+      false,
+    ]
+  }
+>
+  <Text
+    numberOfLines={1}
+    style={
+      [
+        {
+          "fontFamily": "System",
+          "fontSize": 17,
+          "fontWeight": "600",
+          "letterSpacing": 0,
+          "lineHeight": 24,
+        },
+        {
+          "color": "#FFFFFF",
+        },
+      ]
+    }
+  >
+    Block now
+  </Text>
+</View>
+`;
